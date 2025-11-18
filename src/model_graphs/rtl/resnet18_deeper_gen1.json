@@ -1,0 +1,789 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "conv1",
+            "op_names": [
+                "conv2d",
+                "relu_"
+            ],
+            "runtime": 0.00481152,
+            "energy": 0.00024057600000000002,
+            "size": 9472
+        },
+        {
+            "id": 1,
+            "name": "layer1_0+0_conv1",
+            "op_names": [
+                "conv2d_1",
+                "relu__1"
+            ],
+            "runtime": 0.00226376,
+            "energy": 0.000113188,
+            "size": 36928
+        },
+        {
+            "id": 2,
+            "name": "layer1_0+0_conv2",
+            "op_names": [
+                "conv2d_2",
+                "add_",
+                "relu__2"
+            ],
+            "runtime": 0.002326005,
+            "energy": 0.00011630025,
+            "size": 36928
+        },
+        {
+            "id": 3,
+            "name": "layer1_1+1_conv1",
+            "op_names": [
+                "conv2d_3",
+                "relu__3"
+            ],
+            "runtime": 0.00226376,
+            "energy": 0.000113188,
+            "size": 36928
+        },
+        {
+            "id": 4,
+            "name": "layer1_1+1_conv2",
+            "op_names": [
+                "conv2d_4",
+                "add__1",
+                "relu__4"
+            ],
+            "runtime": 0.002326005,
+            "energy": 0.00011630025,
+            "size": 36928
+        },
+        {
+            "id": 5,
+            "name": "layer1_0+2_conv1",
+            "op_names": [
+                "conv2d_5",
+                "relu__5"
+            ],
+            "runtime": 0.00226376,
+            "energy": 0.000113188,
+            "size": 36928
+        },
+        {
+            "id": 6,
+            "name": "layer1_0+2_conv2",
+            "op_names": [
+                "conv2d_6",
+                "add__2",
+                "relu__6"
+            ],
+            "runtime": 0.002326005,
+            "energy": 0.00011630025,
+            "size": 36928
+        },
+        {
+            "id": 7,
+            "name": "layer1_1+3_conv1",
+            "op_names": [
+                "conv2d_7",
+                "relu__7"
+            ],
+            "runtime": 0.00226376,
+            "energy": 0.000113188,
+            "size": 36928
+        },
+        {
+            "id": 8,
+            "name": "layer1_1+3_conv2",
+            "op_names": [
+                "conv2d_8",
+                "add__3",
+                "relu__8"
+            ],
+            "runtime": 0.002326005,
+            "energy": 0.00011630025,
+            "size": 36928
+        },
+        {
+            "id": 9,
+            "name": "layer2_0+0_conv1",
+            "op_names": [
+                "conv2d_9",
+                "relu__9"
+            ],
+            "runtime": 0.001134705,
+            "energy": 5.673525e-05,
+            "size": 73856
+        },
+        {
+            "id": 10,
+            "name": "layer2_0+0_conv2",
+            "op_names": [
+                "conv2d_10"
+            ],
+            "runtime": 0.00013545,
+            "energy": 6.7725e-06,
+            "size": 147584
+        },
+        {
+            "id": 11,
+            "name": "layer2_0+0_downsample_0",
+            "op_names": [
+                "conv2d_11",
+                "add__4",
+                "relu__10"
+            ],
+            "runtime": 0.00226376,
+            "energy": 0.000113188,
+            "size": 8320
+        },
+        {
+            "id": 12,
+            "name": "layer2_1+1_conv1",
+            "op_names": [
+                "conv2d_12",
+                "relu__11"
+            ],
+            "runtime": 0.00015866,
+            "energy": 7.933e-06,
+            "size": 147584
+        },
+        {
+            "id": 13,
+            "name": "layer2_1+1_conv2",
+            "op_names": [
+                "conv2d_13",
+                "add__5",
+                "relu__12"
+            ],
+            "runtime": 0.00226376,
+            "energy": 0.000113188,
+            "size": 147584
+        },
+        {
+            "id": 14,
+            "name": "layer2_0+2_conv1",
+            "op_names": [
+                "conv2d_14",
+                "relu__13"
+            ],
+            "runtime": 0.001134705,
+            "energy": 5.673525e-05,
+            "size": 147584
+        },
+        {
+            "id": 15,
+            "name": "layer2_0+2_conv2",
+            "op_names": [
+                "conv2d_15",
+                "add__6",
+                "relu__14"
+            ],
+            "runtime": 0.00013545,
+            "energy": 6.7725e-06,
+            "size": 147584
+        },
+        {
+            "id": 16,
+            "name": "layer2_1+3_conv1",
+            "op_names": [
+                "conv2d_16",
+                "relu__15"
+            ],
+            "runtime": 0.00015866,
+            "energy": 7.933e-06,
+            "size": 147584
+        },
+        {
+            "id": 17,
+            "name": "layer2_1+3_conv2",
+            "op_names": [
+                "conv2d_17",
+                "add__7",
+                "relu__16"
+            ],
+            "runtime": 0.00226376,
+            "energy": 0.000113188,
+            "size": 147584
+        },
+        {
+            "id": 18,
+            "name": "layer3_0+0_conv1",
+            "op_names": [
+                "conv2d_18",
+                "relu__17"
+            ],
+            "runtime": 0.002294885,
+            "energy": 0.00011474425,
+            "size": 295168
+        },
+        {
+            "id": 19,
+            "name": "layer3_0+0_conv2",
+            "op_names": [
+                "conv2d_19"
+            ],
+            "runtime": 0.002265105,
+            "energy": 0.00011325525,
+            "size": 590080
+        },
+        {
+            "id": 20,
+            "name": "layer3_0+0_downsample_0",
+            "op_names": [
+                "conv2d_20",
+                "add__8",
+                "relu__18"
+            ],
+            "runtime": 0.001134225,
+            "energy": 5.671125e-05,
+            "size": 33024
+        },
+        {
+            "id": 21,
+            "name": "layer3_1+1_conv1",
+            "op_names": [
+                "conv2d_21",
+                "relu__19"
+            ],
+            "runtime": 0.002265105,
+            "energy": 0.00011325525,
+            "size": 590080
+        },
+        {
+            "id": 22,
+            "name": "layer3_1+1_conv2",
+            "op_names": [
+                "conv2d_22",
+                "add__9",
+                "relu__20"
+            ],
+            "runtime": 0.00014295,
+            "energy": 7.147500000000001e-06,
+            "size": 590080
+        },
+        {
+            "id": 23,
+            "name": "layer3_0+2_conv1",
+            "op_names": [
+                "conv2d_23",
+                "relu__21"
+            ],
+            "runtime": 0.002294885,
+            "energy": 0.00011474425,
+            "size": 590080
+        },
+        {
+            "id": 24,
+            "name": "layer3_0+2_conv2",
+            "op_names": [
+                "conv2d_24",
+                "add__10",
+                "relu__22"
+            ],
+            "runtime": 0.002265105,
+            "energy": 0.00011325525,
+            "size": 590080
+        },
+        {
+            "id": 25,
+            "name": "layer3_1+3_conv1",
+            "op_names": [
+                "conv2d_25",
+                "relu__23"
+            ],
+            "runtime": 0.002265105,
+            "energy": 0.00011325525,
+            "size": 590080
+        },
+        {
+            "id": 26,
+            "name": "layer3_1+3_conv2",
+            "op_names": [
+                "conv2d_26",
+                "add__11",
+                "relu__24"
+            ],
+            "runtime": 0.00014295,
+            "energy": 7.147500000000001e-06,
+            "size": 590080
+        },
+        {
+            "id": 27,
+            "name": "layer4_0+0_conv1",
+            "op_names": [
+                "conv2d_27",
+                "relu__25"
+            ],
+            "runtime": 0.002265105,
+            "energy": 0.00011325525,
+            "size": 1180160
+        },
+        {
+            "id": 28,
+            "name": "layer4_0+0_conv2",
+            "op_names": [
+                "conv2d_28"
+            ],
+            "runtime": 0.00227272,
+            "energy": 0.000113636,
+            "size": 2359808
+        },
+        {
+            "id": 29,
+            "name": "layer4_0+0_downsample_0",
+            "op_names": [
+                "conv2d_29",
+                "add__12",
+                "relu__26"
+            ],
+            "runtime": 0.00228031,
+            "energy": 0.0001140155,
+            "size": 131584
+        },
+        {
+            "id": 30,
+            "name": "layer4_1+1_conv1",
+            "op_names": [
+                "conv2d_30",
+                "relu__27"
+            ],
+            "runtime": 0.001134225,
+            "energy": 5.671125e-05,
+            "size": 2359808
+        },
+        {
+            "id": 31,
+            "name": "layer4_1+1_conv2",
+            "op_names": [
+                "conv2d_31",
+                "add__13",
+                "relu__28"
+            ],
+            "runtime": 0.002265105,
+            "energy": 0.00011325525,
+            "size": 2359808
+        },
+        {
+            "id": 32,
+            "name": "layer4_0+2_conv1",
+            "op_names": [
+                "conv2d_32",
+                "relu__29"
+            ],
+            "runtime": 0.002265105,
+            "energy": 0.00011325525,
+            "size": 2359808
+        },
+        {
+            "id": 33,
+            "name": "layer4_0+2_conv2",
+            "op_names": [
+                "conv2d_33",
+                "add__14",
+                "relu__30"
+            ],
+            "runtime": 0.00227272,
+            "energy": 0.000113636,
+            "size": 2359808
+        },
+        {
+            "id": 34,
+            "name": "layer4_1+3_conv1",
+            "op_names": [
+                "conv2d_34",
+                "relu__31"
+            ],
+            "runtime": 0.001134225,
+            "energy": 5.671125e-05,
+            "size": 2359808
+        },
+        {
+            "id": 35,
+            "name": "layer4_1+3_conv2",
+            "op_names": [
+                "conv2d_35",
+                "add__15",
+                "relu__32"
+            ],
+            "runtime": 0.002265105,
+            "energy": 0.00011325525,
+            "size": 2359808
+        },
+        {
+            "id": 36,
+            "name": "fc",
+            "op_names": [
+                "linear"
+            ],
+            "runtime": 0.000493295,
+            "energy": 2.4664749999999998e-05,
+            "size": 513000
+        }
+    ],
+    "edges": [
+        {
+            "source": 0,
+            "destination": 1,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 0,
+            "destination": 2,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 1,
+            "destination": 2,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 2,
+            "destination": 3,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 2,
+            "destination": 4,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 3,
+            "destination": 4,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 4,
+            "destination": 5,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 4,
+            "destination": 6,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 5,
+            "destination": 6,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 6,
+            "destination": 7,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 6,
+            "destination": 8,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 7,
+            "destination": 8,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 8,
+            "destination": 9,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 8,
+            "destination": 11,
+            "size": 200704,
+            "energy": 9.1521024e-06,
+            "latency": 0.005352106666666667
+        },
+        {
+            "source": 9,
+            "destination": 10,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 10,
+            "destination": 11,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 11,
+            "destination": 12,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 11,
+            "destination": 13,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 12,
+            "destination": 13,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 13,
+            "destination": 14,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 13,
+            "destination": 15,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 14,
+            "destination": 15,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 15,
+            "destination": 16,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 15,
+            "destination": 17,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 16,
+            "destination": 17,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 17,
+            "destination": 18,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 17,
+            "destination": 20,
+            "size": 100352,
+            "energy": 4.5760512e-06,
+            "latency": 0.0026760533333333334
+        },
+        {
+            "source": 18,
+            "destination": 19,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 19,
+            "destination": 20,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 20,
+            "destination": 21,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 20,
+            "destination": 22,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 21,
+            "destination": 22,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 22,
+            "destination": 23,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 22,
+            "destination": 24,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 23,
+            "destination": 24,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 24,
+            "destination": 25,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 24,
+            "destination": 26,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 25,
+            "destination": 26,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 26,
+            "destination": 27,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 26,
+            "destination": 29,
+            "size": 50176,
+            "energy": 2.2880256e-06,
+            "latency": 0.0013380266666666667
+        },
+        {
+            "source": 27,
+            "destination": 28,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 28,
+            "destination": 29,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 29,
+            "destination": 30,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 29,
+            "destination": 31,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 30,
+            "destination": 31,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 31,
+            "destination": 32,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 31,
+            "destination": 33,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 32,
+            "destination": 33,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 33,
+            "destination": 34,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 33,
+            "destination": 35,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 34,
+            "destination": 35,
+            "size": 25088,
+            "energy": 1.1440128e-06,
+            "latency": 0.0006690133333333334
+        },
+        {
+            "source": 35,
+            "destination": 36,
+            "size": 512,
+            "energy": 2.33472e-08,
+            "latency": 1.3653333333333334e-05
+        }
+    ]
+}

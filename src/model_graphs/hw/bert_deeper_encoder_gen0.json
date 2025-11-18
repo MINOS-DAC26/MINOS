@@ -1,0 +1,1074 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "bert_encoder_layer_0_attention_self_key",
+            "op_names": [
+                "linear_1"
+            ],
+            "flops": 150994944,
+            "energy": 0.00055708006333,
+            "runtime": 0.00594128,
+            "size": 590592
+        },
+        {
+            "id": 1,
+            "name": "bert_encoder_layer_0_attention_self_value",
+            "op_names": [
+                "linear_2"
+            ],
+            "flops": 150994944,
+            "energy": 0.00055708006333,
+            "runtime": 0.00594128,
+            "size": 590592
+        },
+        {
+            "id": 2,
+            "name": "bert_encoder_layer_0_attention_self_query",
+            "op_names": [
+                "linear"
+            ],
+            "flops": 150994944,
+            "energy": 0.00055708006333,
+            "runtime": 0.00594128,
+            "size": 590592
+        },
+        {
+            "id": 3,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_2",
+                "div",
+                "add"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 4,
+            "name": "softmax",
+            "op_names": [
+                "softmax"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 5,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_14"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 6,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_3",
+                "div_1",
+                "add_3"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 7,
+            "name": "softmax_1",
+            "op_names": [
+                "softmax_1"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 8,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_15"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 9,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_4",
+                "div_2",
+                "add_4"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 10,
+            "name": "softmax_2",
+            "op_names": [
+                "softmax_2"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 11,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_16"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 12,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_5",
+                "div_3",
+                "add_5"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 13,
+            "name": "softmax_3",
+            "op_names": [
+                "softmax_3"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 14,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_17"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 15,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_6",
+                "div_4",
+                "add_6"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 16,
+            "name": "softmax_4",
+            "op_names": [
+                "softmax_4"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 17,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_18"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 18,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_7",
+                "div_5",
+                "add_7"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 19,
+            "name": "softmax_5",
+            "op_names": [
+                "softmax_5"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 20,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_19"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 21,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_8",
+                "div_6",
+                "add_8"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 22,
+            "name": "softmax_6",
+            "op_names": [
+                "softmax_6"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 23,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_20"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 24,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_9",
+                "div_7",
+                "add_9"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 25,
+            "name": "softmax_7",
+            "op_names": [
+                "softmax_7"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 26,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_21"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 27,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_10",
+                "div_8",
+                "add_10"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 28,
+            "name": "softmax_8",
+            "op_names": [
+                "softmax_8"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 29,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_22"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 30,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_11",
+                "div_9",
+                "add_11"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 31,
+            "name": "softmax_9",
+            "op_names": [
+                "softmax_9"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 32,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_23"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 33,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_12",
+                "div_10",
+                "add_12"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 34,
+            "name": "softmax_10",
+            "op_names": [
+                "softmax_10"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 35,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_24"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 36,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_13",
+                "div_11",
+                "add_13"
+            ],
+            "flops": 1081344,
+            "energy": 6.34868487e-06,
+            "runtime": 0.00011474,
+            "size": 0
+        },
+        {
+            "id": 37,
+            "name": "softmax_11",
+            "op_names": [
+                "softmax_11"
+            ],
+            "flops": 32896,
+            "energy": 1.559892917e-05,
+            "runtime": 0.0003337,
+            "size": 0
+        },
+        {
+            "id": 38,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_25"
+            ],
+            "flops": 2097152,
+            "energy": 4.71720309e-06,
+            "runtime": 9.036e-05,
+            "size": 0
+        },
+        {
+            "id": 39,
+            "name": "bert_encoder_layer_0_attention_output_dense",
+            "op_names": [
+                "linear_3",
+                "add_1"
+            ],
+            "flops": 12681216,
+            "energy": 0.00052070758533,
+            "runtime": 0.00606158,
+            "size": 590592
+        },
+        {
+            "id": 40,
+            "name": "bert_encoder_layer_0_attention_output_LayerNorm",
+            "op_names": [
+                "layer_norm"
+            ],
+            "flops": 196608,
+            "energy": 8.237875925e-05,
+            "runtime": 0.00146378,
+            "size": 1536
+        },
+        {
+            "id": 41,
+            "name": "bert_encoder_layer_0_intermediate_dense",
+            "op_names": [
+                "linear_4",
+                "gelu"
+            ],
+            "flops": 150994944,
+            "energy": 0.0021675373,
+            "runtime": 0.02392704,
+            "size": 2362368
+        },
+        {
+            "id": 42,
+            "name": "bert_encoder_layer_0_output_dense",
+            "op_names": [
+                "linear_5",
+                "add_2"
+            ],
+            "flops": 2416017408,
+            "energy": 2.382304e-05,
+            "runtime": 0.02382304,
+            "size": 2360064
+        },
+        {
+            "id": 43,
+            "name": "bert_encoder_layer_0_output_LayerNorm",
+            "op_names": [
+                "layer_norm_1"
+            ],
+            "flops": 196608,
+            "energy": 8.237875925e-05,
+            "runtime": 0.00146378,
+            "size": 1536
+        },
+        {
+            "id": 44,
+            "name": "classifier",
+            "op_names": [
+                "linear_6"
+            ],
+            "flops": 1179648,
+            "energy": 1.682491e-06,
+            "runtime": 3.554e-05,
+            "size": 1538
+        }
+    ],
+    "edges": [
+        {
+            "source": 0,
+            "destination": 3,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 6,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 9,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 12,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 15,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 18,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 21,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 24,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 27,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 30,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 33,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 36,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 5,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 8,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 11,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 14,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 17,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 20,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 23,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 26,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 29,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 32,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 35,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 38,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 3,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 6,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 9,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 12,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 15,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 18,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 21,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 24,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 27,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 30,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 33,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 36,
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 3,
+            "destination": 4,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 4,
+            "destination": 5,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 5,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 6,
+            "destination": 7,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 7,
+            "destination": 8,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 8,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 9,
+            "destination": 10,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 10,
+            "destination": 11,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 11,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 12,
+            "destination": 13,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 13,
+            "destination": 14,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 14,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 15,
+            "destination": 16,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 16,
+            "destination": 17,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 17,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 18,
+            "destination": 19,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 19,
+            "destination": 20,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 20,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 21,
+            "destination": 22,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 22,
+            "destination": 23,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 23,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 24,
+            "destination": 25,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 25,
+            "destination": 26,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 26,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 27,
+            "destination": 28,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 28,
+            "destination": 29,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 29,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 30,
+            "destination": 31,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 31,
+            "destination": 32,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 32,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 33,
+            "destination": 34,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 34,
+            "destination": 35,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 35,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 36,
+            "destination": 37,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 37,
+            "destination": 38,
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 38,
+            "destination": 39,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 39,
+            "destination": 40,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 40,
+            "destination": 41,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 40,
+            "destination": 42,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 41,
+            "destination": 42,
+            "size": 393216,
+            "energy": 1.79306496e-05,
+            "latency": 0.01048576
+        },
+        {
+            "source": 42,
+            "destination": 43,
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 43,
+            "destination": 44,
+            "size": 768,
+            "energy": 3.50208e-08,
+            "latency": 2.048e-05
+        }
+    ]
+}

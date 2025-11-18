@@ -1,0 +1,6056 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "name": "bert_encoder_layer_0_attention_self_key",
+            "op_names": [
+                "linear_1"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 1,
+            "name": "bert_encoder_layer_0_attention_self_value",
+            "op_names": [
+                "linear_2"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 2,
+            "name": "bert_encoder_layer_0_attention_self_query",
+            "op_names": [
+                "linear"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 3,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_8",
+                "div",
+                "add"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 4,
+            "name": "softmax",
+            "op_names": [
+                "softmax"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 5,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_20"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 6,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_9",
+                "div_4",
+                "add_12"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 7,
+            "name": "softmax_4",
+            "op_names": [
+                "softmax_4"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 8,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_21"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 9,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_10",
+                "div_5",
+                "add_13"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 10,
+            "name": "softmax_5",
+            "op_names": [
+                "softmax_5"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 11,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_22"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 12,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_11",
+                "div_6",
+                "add_14"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 13,
+            "name": "softmax_6",
+            "op_names": [
+                "softmax_6"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 14,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_23"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 15,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_12",
+                "div_7",
+                "add_15"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 16,
+            "name": "softmax_7",
+            "op_names": [
+                "softmax_7"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 17,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_24"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 18,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_13",
+                "div_8",
+                "add_16"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 19,
+            "name": "softmax_8",
+            "op_names": [
+                "softmax_8"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 20,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_25"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 21,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_14",
+                "div_9",
+                "add_17"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 22,
+            "name": "softmax_9",
+            "op_names": [
+                "softmax_9"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 23,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_26"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 24,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_15",
+                "div_10",
+                "add_18"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 25,
+            "name": "softmax_10",
+            "op_names": [
+                "softmax_10"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 26,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_27"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 27,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_16",
+                "div_11",
+                "add_19"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 28,
+            "name": "softmax_11",
+            "op_names": [
+                "softmax_11"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 29,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_28"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 30,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_17",
+                "div_12",
+                "add_20"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 31,
+            "name": "softmax_12",
+            "op_names": [
+                "softmax_12"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 32,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_29"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 33,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_18",
+                "div_13",
+                "add_21"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 34,
+            "name": "softmax_13",
+            "op_names": [
+                "softmax_13"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 35,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_30"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 36,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_19",
+                "div_14",
+                "add_22"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 37,
+            "name": "softmax_14",
+            "op_names": [
+                "softmax_14"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 38,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_31"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 39,
+            "name": "bert_encoder_layer_0_attention_output_dense",
+            "op_names": [
+                "linear_3",
+                "add_1"
+            ],
+            "runtime": 0.00151185,
+            "energy": 7.559249999999989e-05,
+            "size": 590592
+        },
+        {
+            "id": 40,
+            "name": "bert_encoder_layer_0_attention_output_LayerNorm",
+            "op_names": [
+                "layer_norm"
+            ],
+            "runtime": 9.4045e-05,
+            "energy": 4.70225e-06,
+            "size": 1536
+        },
+        {
+            "id": 41,
+            "name": "bert_encoder_layer_0_intermediate_dense",
+            "op_names": [
+                "linear_4",
+                "gelu"
+            ],
+            "runtime": 0.005922315,
+            "energy": 0.00029611575,
+            "size": 2362368
+        },
+        {
+            "id": 42,
+            "name": "bert_encoder_layer_0_output_dense",
+            "op_names": [
+                "linear_5",
+                "add_2"
+            ],
+            "runtime": 0.00595281,
+            "energy": 0.00029764049999999996,
+            "size": 2360064
+        },
+        {
+            "id": 43,
+            "name": "bert_encoder_layer_0_output_LayerNorm",
+            "op_names": [
+                "layer_norm_1"
+            ],
+            "runtime": 9.4045e-05,
+            "energy": 4.70225e-06,
+            "size": 1536
+        },
+        {
+            "id": 44,
+            "name": "bert_encoder_layer_1_attention_self_key",
+            "op_names": [
+                "linear_7"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 45,
+            "name": "bert_encoder_layer_1_attention_self_value",
+            "op_names": [
+                "linear_8"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 46,
+            "name": "bert_encoder_layer_1_attention_self_query",
+            "op_names": [
+                "linear_6"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 47,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_32",
+                "div_1",
+                "add_3"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 48,
+            "name": "softmax_1",
+            "op_names": [
+                "softmax_1"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 49,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_44"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 50,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_33",
+                "div_15",
+                "add_23"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 51,
+            "name": "softmax_15",
+            "op_names": [
+                "softmax_15"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 52,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_45"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 53,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_34",
+                "div_16",
+                "add_24"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 54,
+            "name": "softmax_16",
+            "op_names": [
+                "softmax_16"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 55,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_46"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 56,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_35",
+                "div_17",
+                "add_25"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 57,
+            "name": "softmax_17",
+            "op_names": [
+                "softmax_17"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 58,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_47"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 59,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_36",
+                "div_18",
+                "add_26"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 60,
+            "name": "softmax_18",
+            "op_names": [
+                "softmax_18"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 61,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_48"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 62,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_37",
+                "div_19",
+                "add_27"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 63,
+            "name": "softmax_19",
+            "op_names": [
+                "softmax_19"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 64,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_49"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 65,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_38",
+                "div_20",
+                "add_28"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 66,
+            "name": "softmax_20",
+            "op_names": [
+                "softmax_20"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 67,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_50"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 68,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_39",
+                "div_21",
+                "add_29"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 69,
+            "name": "softmax_21",
+            "op_names": [
+                "softmax_21"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 70,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_51"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 71,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_40",
+                "div_22",
+                "add_30"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 72,
+            "name": "softmax_22",
+            "op_names": [
+                "softmax_22"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 73,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_52"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 74,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_41",
+                "div_23",
+                "add_31"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 75,
+            "name": "softmax_23",
+            "op_names": [
+                "softmax_23"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 76,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_53"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 77,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_42",
+                "div_24",
+                "add_32"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 78,
+            "name": "softmax_24",
+            "op_names": [
+                "softmax_24"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 79,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_54"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 80,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_43",
+                "div_25",
+                "add_33"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 81,
+            "name": "softmax_25",
+            "op_names": [
+                "softmax_25"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 82,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_55"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 83,
+            "name": "bert_encoder_layer_1_attention_output_dense",
+            "op_names": [
+                "linear_9",
+                "add_4"
+            ],
+            "runtime": 0.00151185,
+            "energy": 7.559249999999989e-05,
+            "size": 590592
+        },
+        {
+            "id": 84,
+            "name": "bert_encoder_layer_1_attention_output_LayerNorm",
+            "op_names": [
+                "layer_norm_2"
+            ],
+            "runtime": 9.4045e-05,
+            "energy": 4.70225e-06,
+            "size": 1536
+        },
+        {
+            "id": 85,
+            "name": "bert_encoder_layer_1_intermediate_dense",
+            "op_names": [
+                "linear_10",
+                "gelu_1"
+            ],
+            "runtime": 0.005922315,
+            "energy": 0.00029611575,
+            "size": 2362368
+        },
+        {
+            "id": 86,
+            "name": "bert_encoder_layer_1_output_dense",
+            "op_names": [
+                "linear_11",
+                "add_5"
+            ],
+            "runtime": 0.00595281,
+            "energy": 0.00029764049999999996,
+            "size": 2360064
+        },
+        {
+            "id": 87,
+            "name": "bert_encoder_layer_1_output_LayerNorm",
+            "op_names": [
+                "layer_norm_3"
+            ],
+            "runtime": 9.4045e-05,
+            "energy": 4.70225e-06,
+            "size": 1536
+        },
+        {
+            "id": 88,
+            "name": "bert_encoder_layer_2_attention_self_key",
+            "op_names": [
+                "linear_13"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 89,
+            "name": "bert_encoder_layer_2_attention_self_value",
+            "op_names": [
+                "linear_14"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 90,
+            "name": "bert_encoder_layer_2_attention_self_query",
+            "op_names": [
+                "linear_12"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 91,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_56",
+                "div_2",
+                "add_6"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 92,
+            "name": "softmax_2",
+            "op_names": [
+                "softmax_2"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 93,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_68"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 94,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_57",
+                "div_26",
+                "add_34"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 95,
+            "name": "softmax_26",
+            "op_names": [
+                "softmax_26"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 96,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_69"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 97,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_58",
+                "div_27",
+                "add_35"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 98,
+            "name": "softmax_27",
+            "op_names": [
+                "softmax_27"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 99,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_70"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 100,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_59",
+                "div_28",
+                "add_36"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 101,
+            "name": "softmax_28",
+            "op_names": [
+                "softmax_28"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 102,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_71"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 103,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_60",
+                "div_29",
+                "add_37"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 104,
+            "name": "softmax_29",
+            "op_names": [
+                "softmax_29"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 105,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_72"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 106,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_61",
+                "div_30",
+                "add_38"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 107,
+            "name": "softmax_30",
+            "op_names": [
+                "softmax_30"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 108,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_73"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 109,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_62",
+                "div_31",
+                "add_39"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 110,
+            "name": "softmax_31",
+            "op_names": [
+                "softmax_31"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 111,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_74"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 112,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_63",
+                "div_32",
+                "add_40"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 113,
+            "name": "softmax_32",
+            "op_names": [
+                "softmax_32"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 114,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_75"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 115,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_64",
+                "div_33",
+                "add_41"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 116,
+            "name": "softmax_33",
+            "op_names": [
+                "softmax_33"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 117,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_76"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 118,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_65",
+                "div_34",
+                "add_42"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 119,
+            "name": "softmax_34",
+            "op_names": [
+                "softmax_34"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 120,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_77"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 121,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_66",
+                "div_35",
+                "add_43"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 122,
+            "name": "softmax_35",
+            "op_names": [
+                "softmax_35"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 123,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_78"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 124,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_67",
+                "div_36",
+                "add_44"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 125,
+            "name": "softmax_36",
+            "op_names": [
+                "softmax_36"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 126,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_79"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 127,
+            "name": "bert_encoder_layer_2_attention_output_dense",
+            "op_names": [
+                "linear_15",
+                "add_7"
+            ],
+            "runtime": 0.00151185,
+            "energy": 7.559249999999989e-05,
+            "size": 590592
+        },
+        {
+            "id": 128,
+            "name": "bert_encoder_layer_2_attention_output_LayerNorm",
+            "op_names": [
+                "layer_norm_4"
+            ],
+            "runtime": 9.4045e-05,
+            "energy": 4.70225e-06,
+            "size": 1536
+        },
+        {
+            "id": 129,
+            "name": "bert_encoder_layer_2_intermediate_dense",
+            "op_names": [
+                "linear_16",
+                "gelu_2"
+            ],
+            "runtime": 0.005922315,
+            "energy": 0.00029611575,
+            "size": 2362368
+        },
+        {
+            "id": 130,
+            "name": "bert_encoder_layer_2_output_dense",
+            "op_names": [
+                "linear_17",
+                "add_8"
+            ],
+            "runtime": 0.00595281,
+            "energy": 0.00029764049999999996,
+            "size": 2360064
+        },
+        {
+            "id": 131,
+            "name": "bert_encoder_layer_2_output_LayerNorm",
+            "op_names": [
+                "layer_norm_5"
+            ],
+            "runtime": 9.4045e-05,
+            "energy": 4.70225e-06,
+            "size": 1536
+        },
+        {
+            "id": 132,
+            "name": "bert_encoder_layer_3_attention_self_key",
+            "op_names": [
+                "linear_19"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 133,
+            "name": "bert_encoder_layer_3_attention_self_value",
+            "op_names": [
+                "linear_20"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 134,
+            "name": "bert_encoder_layer_3_attention_self_query",
+            "op_names": [
+                "linear_18"
+            ],
+            "runtime": 0.001481355,
+            "energy": 7.406775e-05,
+            "size": 590592
+        },
+        {
+            "id": 135,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_80",
+                "div_3",
+                "add_9"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 136,
+            "name": "softmax_3",
+            "op_names": [
+                "softmax_3"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 137,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_92"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 138,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_81",
+                "div_37",
+                "add_45"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 139,
+            "name": "softmax_37",
+            "op_names": [
+                "softmax_37"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 140,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_93"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 141,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_82",
+                "div_38",
+                "add_46"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 142,
+            "name": "softmax_38",
+            "op_names": [
+                "softmax_38"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 143,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_94"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 144,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_83",
+                "div_39",
+                "add_47"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 145,
+            "name": "softmax_39",
+            "op_names": [
+                "softmax_39"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 146,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_95"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 147,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_84",
+                "div_40",
+                "add_48"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 148,
+            "name": "softmax_40",
+            "op_names": [
+                "softmax_40"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 149,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_96"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 150,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_85",
+                "div_41",
+                "add_49"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 151,
+            "name": "softmax_41",
+            "op_names": [
+                "softmax_41"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 152,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_97"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 153,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_86",
+                "div_42",
+                "add_50"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 154,
+            "name": "softmax_42",
+            "op_names": [
+                "softmax_42"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 155,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_98"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 156,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_87",
+                "div_43",
+                "add_51"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 157,
+            "name": "softmax_43",
+            "op_names": [
+                "softmax_43"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 158,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_99"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 159,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_88",
+                "div_44",
+                "add_52"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 160,
+            "name": "softmax_44",
+            "op_names": [
+                "softmax_44"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 161,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_100"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 162,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_89",
+                "div_45",
+                "add_53"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 163,
+            "name": "softmax_45",
+            "op_names": [
+                "softmax_45"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 164,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_101"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 165,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_90",
+                "div_46",
+                "add_54"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 166,
+            "name": "softmax_46",
+            "op_names": [
+                "softmax_46"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 167,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_102"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 168,
+            "name": "attention_score",
+            "op_names": [
+                "matmul_91",
+                "div_47",
+                "add_55"
+            ],
+            "runtime": 2.736e-05,
+            "energy": 1.3679999999999e-06,
+            "size": 0
+        },
+        {
+            "id": 169,
+            "name": "softmax_47",
+            "op_names": [
+                "softmax_47"
+            ],
+            "runtime": 6.2065e-05,
+            "energy": 3.1032499999999e-06,
+            "size": 0
+        },
+        {
+            "id": 170,
+            "name": "attention_context",
+            "op_names": [
+                "matmul_103"
+            ],
+            "runtime": 2.1635e-05,
+            "energy": 1.08175e-06,
+            "size": 0
+        },
+        {
+            "id": 171,
+            "name": "bert_encoder_layer_3_attention_output_dense",
+            "op_names": [
+                "linear_21",
+                "add_10"
+            ],
+            "runtime": 0.00151185,
+            "energy": 7.559249999999989e-05,
+            "size": 590592
+        },
+        {
+            "id": 172,
+            "name": "bert_encoder_layer_3_attention_output_LayerNorm",
+            "op_names": [
+                "layer_norm_6"
+            ],
+            "runtime": 9.4045e-05,
+            "energy": 4.70225e-06,
+            "size": 1536
+        },
+        {
+            "id": 173,
+            "name": "bert_encoder_layer_3_intermediate_dense",
+            "op_names": [
+                "linear_22",
+                "gelu_3"
+            ],
+            "runtime": 0.005922315,
+            "energy": 0.00029611575,
+            "size": 2362368
+        },
+        {
+            "id": 174,
+            "name": "bert_encoder_layer_3_output_dense",
+            "op_names": [
+                "linear_23",
+                "add_11"
+            ],
+            "runtime": 0.00595281,
+            "energy": 0.00029764049999999996,
+            "size": 2360064
+        },
+        {
+            "id": 175,
+            "name": "bert_encoder_layer_3_output_LayerNorm",
+            "op_names": [
+                "layer_norm_7"
+            ],
+            "runtime": 9.4045e-05,
+            "energy": 4.70225e-06,
+            "size": 1536
+        },
+        {
+            "id": 176,
+            "name": "classifier",
+            "op_names": [
+                "linear_24"
+            ],
+            "runtime": 1.3535e-05,
+            "energy": 6.7675e-07,
+            "size": 1538
+        }
+    ],
+    "edges": [
+        {
+            "source": 0,
+            "destination": 3,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 6,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 9,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 12,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 15,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 18,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 21,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 24,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 27,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 30,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 33,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 0,
+            "destination": 36,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 5,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 8,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 11,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 14,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 17,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 20,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 23,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 26,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 29,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 32,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 35,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 1,
+            "destination": 38,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 3,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 6,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 9,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 12,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 15,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 18,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 21,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 24,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 27,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 30,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 33,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 2,
+            "destination": 36,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 3,
+            "destination": 4,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 4,
+            "destination": 5,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 5,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 6,
+            "destination": 7,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 7,
+            "destination": 8,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 8,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 9,
+            "destination": 10,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 10,
+            "destination": 11,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 11,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 12,
+            "destination": 13,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 13,
+            "destination": 14,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 14,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 15,
+            "destination": 16,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 16,
+            "destination": 17,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 17,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 18,
+            "destination": 19,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 19,
+            "destination": 20,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 20,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 21,
+            "destination": 22,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 22,
+            "destination": 23,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 23,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 24,
+            "destination": 25,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 25,
+            "destination": 26,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 26,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 27,
+            "destination": 28,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 28,
+            "destination": 29,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 29,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 30,
+            "destination": 31,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 31,
+            "destination": 32,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 32,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 33,
+            "destination": 34,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 34,
+            "destination": 35,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 35,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 36,
+            "destination": 37,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 37,
+            "destination": 38,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 38,
+            "destination": 39,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 39,
+            "destination": 40,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 40,
+            "destination": 41,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 40,
+            "destination": 42,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 41,
+            "destination": 42,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                3072
+            ],
+            "size": 393216,
+            "energy": 1.79306496e-05,
+            "latency": 0.01048576
+        },
+        {
+            "source": 42,
+            "destination": 43,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 43,
+            "destination": 44,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 43,
+            "destination": 45,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 43,
+            "destination": 46,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 43,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 44,
+            "destination": 47,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 50,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 53,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 56,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 59,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 62,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 65,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 68,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 71,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 74,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 77,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 44,
+            "destination": 80,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 49,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 52,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 55,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 58,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 61,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 64,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 67,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 70,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 73,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 76,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 79,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 45,
+            "destination": 82,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 47,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 50,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 53,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 56,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 59,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 62,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 65,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 68,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 71,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 74,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 77,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 46,
+            "destination": 80,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 47,
+            "destination": 48,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 48,
+            "destination": 49,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 49,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 50,
+            "destination": 51,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 51,
+            "destination": 52,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 52,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 53,
+            "destination": 54,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 54,
+            "destination": 55,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 55,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 56,
+            "destination": 57,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 57,
+            "destination": 58,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 58,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 59,
+            "destination": 60,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 60,
+            "destination": 61,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 61,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 62,
+            "destination": 63,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 63,
+            "destination": 64,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 64,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 65,
+            "destination": 66,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 66,
+            "destination": 67,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 67,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 68,
+            "destination": 69,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 69,
+            "destination": 70,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 70,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 71,
+            "destination": 72,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 72,
+            "destination": 73,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 73,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 74,
+            "destination": 75,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 75,
+            "destination": 76,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 76,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 77,
+            "destination": 78,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 78,
+            "destination": 79,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 79,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 80,
+            "destination": 81,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 81,
+            "destination": 82,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 82,
+            "destination": 83,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 83,
+            "destination": 84,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 84,
+            "destination": 85,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 84,
+            "destination": 86,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 85,
+            "destination": 86,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                3072
+            ],
+            "size": 393216,
+            "energy": 1.79306496e-05,
+            "latency": 0.01048576
+        },
+        {
+            "source": 86,
+            "destination": 87,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 87,
+            "destination": 88,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 87,
+            "destination": 89,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 87,
+            "destination": 90,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 87,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 88,
+            "destination": 91,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 94,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 97,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 100,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 103,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 106,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 109,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 112,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 115,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 118,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 121,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 88,
+            "destination": 124,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 93,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 96,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 99,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 102,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 105,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 108,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 111,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 114,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 117,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 120,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 123,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 89,
+            "destination": 126,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 91,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 94,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 97,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 100,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 103,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 106,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 109,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 112,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 115,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 118,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 121,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 90,
+            "destination": 124,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 91,
+            "destination": 92,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 92,
+            "destination": 93,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 93,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 94,
+            "destination": 95,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 95,
+            "destination": 96,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 96,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 97,
+            "destination": 98,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 98,
+            "destination": 99,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 99,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 100,
+            "destination": 101,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 101,
+            "destination": 102,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 102,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 103,
+            "destination": 104,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 104,
+            "destination": 105,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 105,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 106,
+            "destination": 107,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 107,
+            "destination": 108,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 108,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 109,
+            "destination": 110,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 110,
+            "destination": 111,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 111,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 112,
+            "destination": 113,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 113,
+            "destination": 114,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 114,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 115,
+            "destination": 116,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 116,
+            "destination": 117,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 117,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 118,
+            "destination": 119,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 119,
+            "destination": 120,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 120,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 121,
+            "destination": 122,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 122,
+            "destination": 123,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 123,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 124,
+            "destination": 125,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 125,
+            "destination": 126,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 126,
+            "destination": 127,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 127,
+            "destination": 128,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 128,
+            "destination": 129,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 128,
+            "destination": 130,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 129,
+            "destination": 130,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                3072
+            ],
+            "size": 393216,
+            "energy": 1.79306496e-05,
+            "latency": 0.01048576
+        },
+        {
+            "source": 130,
+            "destination": 131,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 131,
+            "destination": 132,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 131,
+            "destination": 133,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 131,
+            "destination": 134,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 131,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 132,
+            "destination": 135,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 138,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 141,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 144,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 147,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 150,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 153,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 156,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 159,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 162,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 165,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 132,
+            "destination": 168,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 137,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 140,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 143,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 146,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 149,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 152,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 155,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 158,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 161,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 164,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 167,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 133,
+            "destination": 170,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 135,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 138,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 141,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 144,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 147,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 150,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 153,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 156,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 159,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 162,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 165,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 134,
+            "destination": 168,
+            "dtype": "float32",
+            "shape": [
+                128,
+                64
+            ],
+            "size": 8192,
+            "energy": 3.735552e-07,
+            "latency": 0.00021845333333333334
+        },
+        {
+            "source": 135,
+            "destination": 136,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 136,
+            "destination": 137,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 137,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 138,
+            "destination": 139,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 139,
+            "destination": 140,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 140,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 141,
+            "destination": 142,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 142,
+            "destination": 143,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 143,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 144,
+            "destination": 145,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 145,
+            "destination": 146,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 146,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 147,
+            "destination": 148,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 148,
+            "destination": 149,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 149,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 150,
+            "destination": 151,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 151,
+            "destination": 152,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 152,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 153,
+            "destination": 154,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 154,
+            "destination": 155,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 155,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 156,
+            "destination": 157,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 157,
+            "destination": 158,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 158,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 159,
+            "destination": 160,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 160,
+            "destination": 161,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 161,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 162,
+            "destination": 163,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 163,
+            "destination": 164,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 164,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 165,
+            "destination": 166,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 166,
+            "destination": 167,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 167,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 168,
+            "destination": 169,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 169,
+            "destination": 170,
+            "dtype": "float32",
+            "shape": [
+                1,
+                1,
+                128,
+                128
+            ],
+            "size": 16384,
+            "energy": 7.471104e-07,
+            "latency": 0.0004369066666666667
+        },
+        {
+            "source": 170,
+            "destination": 171,
+            "dtype": "float32",
+            "shape": [
+                1,
+                12,
+                128,
+                64
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 171,
+            "destination": 172,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 172,
+            "destination": 173,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 172,
+            "destination": 174,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 173,
+            "destination": 174,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                3072
+            ],
+            "size": 393216,
+            "energy": 1.79306496e-05,
+            "latency": 0.01048576
+        },
+        {
+            "source": 174,
+            "destination": 175,
+            "dtype": "float32",
+            "shape": [
+                1,
+                128,
+                768
+            ],
+            "size": 98304,
+            "energy": 4.4826624e-06,
+            "latency": 0.00262144
+        },
+        {
+            "source": 175,
+            "destination": 176,
+            "dtype": "float32",
+            "shape": [
+                1,
+                768
+            ],
+            "size": 768,
+            "energy": 3.50208e-08,
+            "latency": 2.048e-05
+        }
+    ]
+}
